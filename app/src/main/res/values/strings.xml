@@ -17,9 +17,12 @@
     <string name="daftar_kayu">Daftar Kayu</string>
     <string name="nama_perusahaan">Nama Perusahaan <font color="red">*</font></string>
     <string name="alamat">Alamat <font color="red">*</font></string>
-    <string name="no_hp">no. HP <font color="red">*</font></string>
+    <string name="no_hp">No. HP <font color="red">*</font></string>
     <string name="sukodono">Sukodono RT 2 RW 1 Jepara</string>
     <string name="no_08">081234567890</string>
     <string name="daftar_furniture">Daftar Furniture</string>
     <string name="tambah_tukang">Tambah Tukang</string>
+    <string name="username">Username <font color="red">*</font></string>
+    <string name="tulis_kritik_disini">Tulis kritik disini</string>
+    <string name="tulis_saran_disini">Tulis saran disini</string>
 </resources>
