@@ -8,7 +8,7 @@ import android.widget.ImageButton
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
-    var doubleBackToExitOnce : Boolean = false
+//    var doubleBackToExitOnce : Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -46,18 +46,18 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onBackPressed() {
-        if (doubleBackToExitOnce){
-            super.onBackPressed()
-            return
-        }
-
-        this.doubleBackToExitOnce = true;
-
-        Toast.makeText(this, "Tekan satu kali lagi untuk keluar", Toast.LENGTH_SHORT).show()
-
-        Handler().postDelayed({
-            kotlin.run { doubleBackToExitOnce = false }
-        }, 2000)
-    }
+//    override fun onBackPressed() {
+//        if (doubleBackToExitOnce){
+//            super.onBackPressed()
+//            return
+//        }
+//
+//        this.doubleBackToExitOnce = true;
+//
+//        Toast.makeText(this, "Tekan satu kali lagi untuk keluar", Toast.LENGTH_SHORT).show()
+//
+//        Handler().postDelayed({
+//            kotlin.run { doubleBackToExitOnce = false }
+//        }, 2000)
+//    }
 }
